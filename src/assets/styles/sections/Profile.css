@@ -1,0 +1,38 @@
+.profileBlock {
+    box-shadow: -1px 4px 46.6px 14px rgba(0, 0, 0, 0.25);
+    background: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+
+    width: 500px;
+}
+
+.profileName {
+    color: white;
+}
+
+.profileContent {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+}
+
+.profileImage {
+    width: 80px;
+    height: 80px;
+}
+
+.profileInfo {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.profileText {
+    width: 300px;
+    color: rgb(202, 202, 202);
+}

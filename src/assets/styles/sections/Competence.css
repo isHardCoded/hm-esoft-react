@@ -1,0 +1,65 @@
+.compBlock {
+    background: rgb(38, 38, 38);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+    cursor: pointer;
+    transition: .3s ease;
+
+    color: white;
+}
+
+.compDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.compBlock:hover {
+    transform: scale(1.05);
+    transition: .3s ease;
+
+    box-shadow: -1px 4px 46.6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.compImage {
+    width: 30px;
+    height: 30px;
+}
+
+.showCompBtn {
+    border: none;
+    outline: none;
+    background: none;
+    transition: .1s ease-in-out;
+}
+
+.showCompBtn:active {
+    transform: scale(0.95);
+    transition: 0.001s ease-in-out;
+}
+
+.flexCompDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.compDescText {
+    color: rgb(202, 202, 202);
+    font-size: 16px;
+}
+
+.compProgressText {
+    color: rgb(202, 202, 202);
+    font-size: 12px;
+}
+
