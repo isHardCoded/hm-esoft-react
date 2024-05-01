@@ -1,21 +1,11 @@
 #root {
-  display: flex;
-  gap: 40px;
-  flex-direction: column;
-  margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 
-  justify-content: center;
-  align-items: center;
-}
+    align-items: center;
+    gap: 30px;
 
-.competenceCards {
-  display: flex;
-  gap: 20px;
+    margin-top: 30px;
 
-  flex-wrap: wrap;
-}
-
-.futureCompetenceCards {
-  display: flex;
-  gap: 20px;
+    height: 145vh;
 }
